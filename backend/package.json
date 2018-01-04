@@ -1,0 +1,17 @@
+{
+  "name": "xxo_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tim<tim8670@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ec-router": "^1.0.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "mongodb": "^3.0.1"
+  }
+}

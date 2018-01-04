@@ -1,0 +1,57 @@
+//荣誉设定（暂时为前端hardcode）
+module.exports = {
+   list(){
+        return {
+            games: {
+                icon:'/static/badge1.png',
+                levels:[
+                    {count:1,desc:'首次'},
+                    {count:10,desc:'10次'},
+                    {count:100,desc:'100次'},
+                    {count:1000,desc:'1000次'},
+                    {count:9999,desc:'9999次'},
+                ]
+            },
+            win: {
+                icon:'/static/badge2.png',
+                levels:[
+                    {count:1,desc:'首胜'},
+                    {count:5,desc:'5胜'},
+                    {count:10,desc:'10胜'},
+                    {count:100,desc:'100胜'},
+                    {count:9999,desc:'999胜'},
+                ]
+            },
+            max_win_streaks:{
+                icon:'/static/badge3.png',
+                levels:[
+                    {count:3,desc:'3连胜'},
+                    {count:5,desc:'5连胜'},
+                    {count:10,desc:'10连胜'},
+                    {count:50,desc:'50连胜'},
+                    {count:99,desc:'99连胜'},
+                ]
+            },
+            db_kill:{
+                icon:'/static/badge4.png',
+                levels:[
+                    {count:1,desc:'首次'},
+                    {count:5,desc:'5次'},
+                    {count:10,desc:'10次'},
+                    {count:50,desc:'50次'},
+                    {count:99,desc:'99次'},
+                ]
+            },
+            ko:{
+                icon:'/static/badge5.png',
+                levels:[
+                    {count:1,desc:'首次'},
+                    {count:5,desc:'5次'},
+                    {count:10,desc:'10次'},
+                    {count:50,desc:'50次'},
+                    {count:99,desc:'99次'},
+                ]
+            },
+        }
+    },
+}
