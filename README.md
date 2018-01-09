@@ -1,6 +1,11 @@
 xxo，一种有趣的棋类小游戏
 =======================
 
+## 演示地址
+
+http://xxo.vrdevs.com/
+
+注：该主机主力ss，比较卡。
 
 ## 代码说明
 
@@ -12,11 +17,15 @@ xxo，一种有趣的棋类小游戏
 	
 	a. 安装mongodb,并修改后端配置中的连接参数(backend/config.js)
 
-	b. 进入backend目录, 执行```npm install```安装依赖
+	b. 进入backend目录, 执行```npm install && npm update```安装依赖
 
 	c. 执行```npm start```运行
 
 2. 前端
-
-	在xxo项目目录，执行```npm run dev```
+  
+  在xxo项目目录，执行npm install安装依赖，修改配置指定后端。
+  
+	执行```npm run dev```
+  
+  或执行```npm run build```打包，并将build/dist/下的文件部署到webserver
 
